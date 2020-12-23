@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.navlist
+{
+	position:absolute;
+	padding-top: 35px;
+	padding-left: 50px;
+	width: 100%;
+	text-decoration:none;
+
+}
+
+#navlist-item-1, #navlist-item-2
+{
+	border: 1px;
+	background-color: #E1C479;
+	color: #104B4B;
+	padding: 10px;
+
+}
+
+
+.navlist-right
+{
+ float: right;
+ padding-right: 50px;	
+ padding-top: 35px;
+ 
+}
+
+.navlist-right:hover{color: yellow;}
+
+h1{
+	padding: 5px;
+	text-align: center;
+}
+
