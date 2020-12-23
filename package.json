@@ -1,0 +1,22 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "New project for a restaurant website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReimshaSuman/Hotel.git.git"
+  },
+  "author": "Reimsha Suman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReimshaSuman/Hotel.git/issues"
+  },
+  "homepage": "https://github.com/ReimshaSuman/Hotel.git#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
