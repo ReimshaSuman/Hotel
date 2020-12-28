@@ -4,8 +4,56 @@ body
 	margin: 0;
 }
 
+.hero
+{
+
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.5), url("img/restaurant.jpg"));
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+
+    margin-top: 
+}
+
 .container
 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+
+}
+.title
+{
+	text-align: left;
+	position: absolute;
+	font-size: 72px;
+	letter-spacing: 0.2em;
+	
+}
+
+.container h1 span
+{
+	display: inline-block;
+
+.title button
+{ 
+	align-items: right;
+	border:1px solid;
+	display: inline-block;
+	padding: 5px 10px;
+	margin-left: 10px;
+	color: white;
+	background-color: teal;
+	text-align: center;
+	cursor: pointer;
+	font-size: 30px;
 }
 .navbar
 {
@@ -23,7 +71,7 @@ body
 {
 	float: left;
 	padding-left: 50px;
-	width:150px; height:120px; 
+	width:150px; height:100px; 
 	align-items: center;
 	color: #cc9d1d;
 } 
@@ -49,6 +97,7 @@ body
 .navbar .nav-menu a
 {
 	display: block;
+	margin-top: 20px;
 	padding: .5em;
 	font-size: 18px;
 	color: #cc9d1d;
@@ -85,19 +134,18 @@ body
     	{  
     		float: none;
     		width: 120px;
-    		height: 100px;
-            margin-left: 8px;
-            margin-top: 10px;
+    		height: 95px;
+            margin-left: -20px;
+            margin-top: 5px;
     	 }
 
-         
         .navbar .nav-menu a
 		{
 		
 		display: block;
 		padding: 5px;
 		font-size: 13.5px;
-		margin-right: 15px;
+		margin-right: 20px;
 		color: #cc9d1d;
 		text-decoration: none;
 
