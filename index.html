@@ -10,6 +10,8 @@
   <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
      
   <!--Google Fonts-->
@@ -20,57 +22,43 @@
   
 </head>
 <body>
-  
-  <div class="container-fluid">
-    
-    <div class="row">
-      <div class="col-md-4 col-xs-">
-
-      <nav class="leftnav">
-
-  <!-- Links -->
-                <a href="#" id="navlist-item-1" style="text-decoration: none">DINE WITH US&nbsp;&nbsp;</a>
-                <a href="#" id="navlist-item-2" style="text-decoration: none">ORDER NOW &nbsp;&nbsp;</a>
-      </nav>
-      </div><!--col-md-4-->
-
-      <div class="col-md-4">
-        <h1>THE KITCHEN</h1>
-      </div>
+<div class="container">
+<!-- Navigation -->
+<nav class="navbar">
+  <input type="checkbox" id="nav-toggle">
+  <div class="logo"><a href="index.html"><img src="img/LogoK.png" alt="hotel logo"></a>
+  </div>
       
-      <div class="col-md-4">
-       <nav class="rightnav">
-         
-         <a href="#" id="navlist-item-3" style="text-decoration: none">HOME</a>&nbsp;&nbsp;
-         <a href="#" id="navlist-item-4" style="text-decoration: none">OUR STORY</a>&nbsp;&nbsp;
-         <a href="#" id="navlist-item-5" style="text-decoration: none">GALLERY</a>&nbsp;&nbsp;
-     
-       </nav>
-       </div>  
+      <ul class="nav-menu">
 
-    </div><!--row-->
-    <div class="row">
-      <div class="col-md-9">
-        <div class="image-wrapper">
-          <img src="restaurant.jpg" alt="" width="105%" height="500px">
-        </div><!--image-wrapper-->
-      </div><!--col-md-9-->
+  
+        <li><a href="index.html" class="items">HOME</a></li>
+        <li><a href="index.html" class="items">OUR STORY</a></li>
+        <li><a href="index.html" class="items">GALLERY</a></li>
+        <li><a href="index.html" class="button">RESERVATIONS</a></li>
+        <li><a href="index.html" class="button">ORDER NOW</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label> 
+ </nav>
+           
+</div>
 
-      <div class="col-md-3">
-        <div class="text-wrapper">
-          <p> SERVING<br/> YOU <br/> HAPPINESS <br/>
-          </p>
-          <button class="btn-menu">MENU</button>
-        </div><!--text-wrapper-->
-      </div><!--col-md-3-->
-     </div><!--row--> 
 
-     </div><!--container-->
 
+  
+    
+
+  
+    
 
 <!--scripts-->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
