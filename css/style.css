@@ -4,6 +4,8 @@ body
 	margin: 0;
 }
 
+<<<<<<< HEAD
+=======
 .hero
 {
 
@@ -55,6 +57,7 @@ body
 	cursor: pointer;
 	font-size: 30px;
 }
+>>>>>>> 52fed10db621f8fba3ddab6a27b37cf50de8384c
 .navbar
 {
 	position: fixed;
