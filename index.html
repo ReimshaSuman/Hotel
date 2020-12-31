@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   
     <link rel="stylesheet" type="text/css" href="css/style.css">
   <!--Font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,41 +22,30 @@
   
 </head>
 <body>
+<nav>
+  <input type="checkbox" name="" id="toggle">
+  <img  class="logo" src="img/logok.png">
+  <ul class="links">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">OUR STORY</a></li>
+    <li><a href="#">GALLERY</a></li>
+    <li><a href="#">RESERVATIONS</a></li>
+    <li><a href="#">ORDER NOW</a></li>
+  </ul>
+  <label for="toggle" class="icon-burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </label>
+</nav>
 
-<header>
+<div class="banner">
 
-  <div class="navbar">
-    <img class="logo" src="img/Logok.png" alt="">
-    <nav>
-    <ul>
-      <li class="item"><a href="index.html">HOME</a></li>
-      <li class="item"><a href="#">OUR STORY</a></li>
-      <li class="item"><a href="#">GALLERY</a></li>
-      <li class="items"><a href="#">RESERVATIONS</a></li>
-      <li class="items"><a href="#">ORDER NOW</a></li>
-    </ul>
-    </nav>
-
-    <div class="menu-bar">
-      <span class="bar"><i class="fa fa-bars"></i></span>
-      </div>
-    </div><!---menu-bar-->
-
-    
-  </div><!--navbar-->
-  
-  <div class="container">
-    <div class="banner">
-        
-      <img src="img/restaurant.jpg">
-      <h2 class="hero-text">SERVING YOU HAPPINESS</h2>
-      <button type="button"><span></span>MENU</button>
-      </div>
-    </div><!--col-->
-
-      
-    </div>
-  
+  <img src="img/restaurant.jpg">
+  <h2 class="hero-text">SERVING YOU HAPPINESS</h2>
+      <a class="button" href="#">MENU</a>
+  </div>
+ 
 <!--scripts-->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
