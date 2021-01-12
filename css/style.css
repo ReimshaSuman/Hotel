@@ -25,17 +25,17 @@
  nav .logo
  {
  	float: left;
- 	width: 100px;
+ 	width: 80px;
+ 	height: 120px;
  	display: flex;
  	align-items: center;
-
  }
 
  nav .links
  {
  	float: right;
  	padding: 0;
- 	margin-top: 30px;
+ 	margin-top: 40px;
  	width: 60%;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@
  nav .links li
  {
  	list-style: none;
- 	font-weight: bold;
+ 	font-weight: normal;
  }
 
  nav .links a
@@ -53,7 +53,7 @@
  	display: block;
  	padding: .5em;
  	font-size: 17px;
- 	color: #F2D0A4;
+ 	color: #bd9d76;
  	text-decoration: none;
  }
 /*toggle bar*/
@@ -75,7 +75,7 @@ nav .icon-burger .line
 {
   width: 30px;
   height: 3px;
-  background-color: #E1C479;
+  background-color: #bd9d76;
   margin: 5px;
   border-radius: 3px;
   transition: all .3s ease-in-out;
@@ -87,41 +87,48 @@ nav .icon-burger .line
 .banner{   
 	margin: 0 auto;
 	position: relative ;
+
 }
 
 .banner img
 {
-    width:100%;
+    width:90%;
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
     height: 700px;
 }
 
 .hero-text
 {   
-	color: white;
+	color: #bd9d76;
 	position: absolute;
-	top: 62%;
+	top: 55%;
+	left: 15px;
 	width: 100%;
 	text-align: center;
-	font-size:30px;
-	font-weight: normal;
-	font-family: 'Quantico', sans-serif;
+	font-size:26px;
+	font-weight: bold;
+	font-family: 'Roboto Mono', sans-serif;
 }
 
-h1
+.banner h1
 {
-	color: white;
+	color: #bd9d76;
 	position: absolute;
-	top: 50%;
+	top: 45%;
+	left: 8px;
 	width: 100%;
 	text-align: center;
-	font-size:60px;
-	font-weight: lighter;
+	font-size:50px;
+	font-weight: bold;
 	font-family: 'Roboto Mono', sans-serif;
 }
 
 span hr
 {
    width: 30%;
+   background-color: #bd9d76;
 
 }
 
@@ -130,57 +137,54 @@ span hr
 .about-container
 {
 	width: 100%;
-	height: 360px;
-	position: relative sticky;
+	height: 400px;
 }
 
 .about-text h2
 {
 	font-family: 'Roboto Mono', sans-serif;
-	color: #545E75;
+	color:#345161;
 	font-size: 45px;
     line-height: 98%;
 	font-weight: lighter;
 	text-align: left;
 	align-items: center;
 	width: 50%;	
-	margin-left: 8%;
-    margin-top: 15%;
-
+	margin-left: 5%;
+	padding-top: 10%;
 }
  .about-text p
  {
  	font-family: 'Roboto Mono', sans-serif;
-	color: #545E75;
+	color: #345161;
 	font-size: 20px;
     line-height: 98%;
 	font-weight: lighter;
 	text-align: left;
 	align-items: center;
 	width: 50%;	
-	margin-left: 8%;
+	margin-left: 5%;
  }
 
- .about-button
+ .about-button 
  {
  	width: 50%;	
-	margin-left: 8%;
-	border:2px solid rgba(242, 208, 164,.5);
+	margin-left: 5%;
+    border:1px solid rgba(189, 157, 118,.5) ;
 	padding: 5px;
-	color: #545E75;
+	color: #345161;
 	text-decoration: none;
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: lighter;
-    background-color: rgba(242, 208, 164,.7);
+    background-color: rgba(189, 157, 118,.5) ;
 
  }
 .about-button:hover
 {
-	font-weight: bold;
 	background-color: transparent;
 	transition: .2s ease-in-out;
-	border-color: #F2D0A4;
+	border-color: #bd9d76;
 } 
 
  
@@ -189,7 +193,6 @@ span hr
 	width: 50%;
 	height: 500px;
 	float: right;
-	margin-top: -10%;
 	margin-right: 5%;
 }
 
@@ -200,24 +203,49 @@ span hr
 {
 	margin:0 auto;
 	width: 100%;
+
 }
 
-.menu-banner 
+.menu-banner1 
 {
    text-align: center;
    align-items: center;
-   font-size: 24px;	
+   
 }
 
+.menu-banner1 h2
+{  
+   font-family: 'Roboto Mono', sans-serif;
+	color: #345161;
+	font-size: 45px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
+	margin-top: 12%;		
+}
+.menu-banner2
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    position: relative;
+}
 
+.svg1
+{
+margin: 0 10% 0 10%;
+}
 .menu-button
 {
-	background-color: rgba(242, 208, 164,.5);
-	border:1px solid rgba(242, 208, 164,.5) ;
+	background-color: rgba(189, 157, 118,.5);
+	border:1px solid rgba(189, 157, 118,.5) ;
 	padding: 2px 30px;
 	font-size: 20px;
 	width: 500px;
-	color: #545E75;
+	margin-top: 20px;
+	color: #345161;
 	text-decoration: none;
     font-weight: lighter;
 	font-family: 'Roboto Mono', sans-serif;
@@ -226,21 +254,356 @@ span hr
 
 .menu-button:hover
 {	
-	font-weight: bold;
 	background-color: transparent;
 	transition: .2s ease-in-out;
 	border-color: #F2D0A4;
 } 
 
+.dish-button1, .dish-button2, .dish-button3 
+{
+	background-color: rgba(250, 249, 249,.8);
+	border:1px solid rgba(250, 249, 249,.8) ;
+	font-size: 25px;
+	padding: 0 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #345161;
+}
+.dish-button1
+{
+	position: absolute;
+	top: 58%;
+	left: 13%;
+}
+
+.dish-button2
+{
+	position: absolute;
+	top: 56%;
+	left: 47.5%;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 57%;
+	left: 80%;
+}
+
+#menu-mobile
+{
+	display: none;
+}
+
+
+/*about container*/
+.blog-container
+{
+	width: 100%;
+	height: auto;
+}
+.blog-text
+{
+	display: block;
+	float: right;
+	margin-top: 14%;
+	margin-right: 5%;
+	padding: 10px;
+	width: 40%;
+}
+
+.blog-text h2
+{
+   font-size: 40px;
+   color:  #345161;
+   font-family: 'Roboto Mono',sans-serif;
+   font-weight: lighter;
+}
+
+.blog-text p
+{
+   font-size: 20px;
+   color:  #345161;
+   font-family: 'Roboto Mono',sans-serif;
+   font-weight: lighter;
+}
+.blog-button
+{
+   font-size: 16px;
+   color:  #345161;
+   font-family: 'Roboto Mono',sans-serif;
+   font-weight: lighter;
+   text-transform: uppercase;
+   background-color: rgba(189, 157, 118,.5);
+   border:1px solid rgba(189, 157, 118,.5);
+   text-decoration: none;
+   padding: 2px 15px;
+}
+
+.blog-button:hover
+{
+	background-color: transparent;
+	transition: .2s ease-in-out;
+	border-color: #bd9d76;
+} 
+
+ 
+.img2 
+{
+	width: 50%;
+	height: 500px;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.reservations 
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.reservations img
+{
+	position: relative;
+	height: 500px;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+.reservations h2
+{   
+	color: white;
+	position: absolute;
+	margin-top: -30%;
+	margin-left: 38%;
+	font-size: 45px;
+	font-weight: lighter;
+	font-family: 'Roboto mono', sans-serif;
+	
+}
+
+.res-form
+{
+	color: white;
+    text-align: left;
+   position: absolute;
+   margin-top: -30%;
+   margin-left: 22%;
+   padding-top:7%;
+
+}
+
+#name, #num, #date, #size
+{
+	  font-family: 'Roboto Mono', sans-serif;
+    color: #345161;
+	width: 30%;
+	padding:10px 2px;
+	margin-bottom: 10px;
+	font-size: 18px;
+    border:none;
+}
+
+
+#ph, #time
+{
+	  font-family: 'Roboto Mono', sans-serif;
+	width: 10%;
+	padding: 10px 2px;
+	border:none;
+	font-size: 16px;
+	color: #345161;
+	margin-left: 3%;
+}
+#book
+{
+	  font-family: 'Roboto Mono', sans-serif;
+	margin-left: 28%;
+	font-size: 24px;
+	padding: 5px 35px;
+	border:none;
+	border-radius: 5px;
+	color: #345161;
+	font-weight: lighter;
+	background-color: rgba(196, 160, 130,.7);
+}
+
+.footer-container
+{
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: block;
+	margin: 0 auto;
+    display: flex;
+}
+
+.footer1
+{
+  	padding: 20px 0; 
+	margin-left: 5%;
+	font-family: 'Roboto Mono', sans-serif;
+
+}
+.footer2
+{
+	padding: 20px 0; 
+	margin-left: 5%;
+}
+#email
+{
+  padding:5px 10px;
+  font-size: 18px;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+#submit
+{
+	margin-top: 5%;
+	background-color: rgba(196, 160, 130,.8);
+	font-family: 'Roboto mono', sans-serif;
+	color: white;
+}
+.footer1 i
+{
+	font-size: 18px;
+	margin-top: 10%;
+    width: 10%;
+}
+.footer3
+{
+  	padding: 20px 0; 
+	margin-left: 5%;
+}
+.footer4
+{	
+  	padding: 20px 0; 
+	margin-left: 5%;
+	font-family: 'Roboto Mono', sans-serif;
+
+}
+	
+
+@media screen and (max-width: 1077px)
+{
+  .menu-container img
+  {
+    width: 250px;
+  }
+
+  .reservations h2
+  {
+  	margin-top: -35%;
+  }
+  .res-form
+  {
+  	margin-top: -35%;
+  }
+  .dish-button1
+{
+	position: absolute;
+	top: 50%;
+	left: 12%;
+}
+
+.dish-button2
+{
+	position: absolute;
+	top: 50%;
+	left: 47%;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 49%;
+	left: 79%;
+}
+
+}
 
 @media screen and (max-width: 995px)
 {
-	nav .logo
-	{
-		float: none;
-		width: 80px;
-		justify-content: center;
-	}
+
+ nav .logo
+ {
+ 	float: left;
+ 	width: 70px;
+ 	height: 90px;
+ 	display: flex;
+ 	align-items: center;
+ }   
+.img1 
+{
+	width: 50%;
+	height: 450px;
+	float: right;
+	margin-right: 5%;
+}
+.about-text h2
+{
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 38px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: left;
+	align-items: center;
+	width: 50%;	
+	margin-left: 5%;
+}
+
+ .about-button
+ {
+ 	width: 50%;	
+	margin-left: 5%;
+	border:2px solid rgba(242, 208, 164,.5);
+	padding: 5px;
+	text-decoration: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+    background-color: rgba(242, 208, 164,.7);
+
+ }
+
+ .menu-banner1 h2
+{  
+   font-family: 'Roboto Mono', sans-serif;
+	
+	font-size: 45px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: center;
+   	align-items: center;	
+   margin-top: 10%; 
+}
+
+.menu-container img
+{
+	width: 200px;
+}
+.dish-button1
+{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+}
+
+.dish-button2
+{
+	position: absolute;
+	top: 52%;
+	left: 46.5%;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 48%;
+	left: 76%;
+}
+
 	nav .links
 	{
 		float: none;
@@ -297,7 +660,7 @@ span hr
 
 	.banner img
 	{
-	    width:100%;
+	    width:90%;
 	    height: 600px;
 	}
 
@@ -345,12 +708,335 @@ span hr
 	text-align: center;
 }
 
- @media screen and (max-width: 560px)
+.img2 
+{
+	height: 450px;
+}
+.blog-text
+{
+	margin-top: 10%;
+}
+.blog-text h2
+{
+	font-size: 38px;
+}
+
+@media screen and (max-width: 860px)
+{
+	.reservations h2
+  {
+  	margin-top: -40%;
+  	margin-left: 35%;
+  }
+  .res-form
+  {
+  	margin-top: -39%;
+  }
+  #name, #num, #date, #size
+{
+	font-size: 16px;   
+}
+
+
+#ph, #time
+{
+	  
+	font-size: 14px;
+}
+
+  #book
+  {
+  	margin-left: 23%;
+  }
+  
+	.dish-button1
+{
+	position: absolute;
+	top: 50%;
+	left: 11%;
+}
+
+.dish-button2
+{
+	position: absolute;
+	top: 52%;
+	left: 46%;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 50%;
+	left: 78%;
+}
+
+}
+@media screen and (max-width: 755px)
+{ .reservations img
+	{
+		height:450px;
+	}
+	.reservations h2
+  {
+  	margin-top: -50%;
+  	margin-left: 33%;
+  	font-size: 36px;
+  }
+  .res-form
+  {
+  	margin-top: -48%;
+  }
+  #num, #name, #size
+  {
+  	font-size: 14px;
+  }
+  #book
+  {
+  	margin-left: 25%;
+    padding: 5px 10px;
+  	font-size: 20px;
+  }
+ nav .logo
  {
-   .img1 img
-   {
-   	viewBox:0 0 300 50;
-   }
+ 	float: left;
+ 	width: 60px;
+ 	height: 80px;
+ 	display: flex;
+ 	align-items: center;
+ }
+	.dish-button1, .dish-button2,.dish-button3
+	{
+		font-size: 18px;
+	}
+	.dish-button1
+{
+	position: absolute;
+	top: 52%;
+	left: 15%;
+}
+
+.dish-button2
+{
+	position: absolute;
+	top: 54%;
+	left: 46.5%;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 51%;
+	left: 76%;
+}
+
+
+.hero-text
+{
+	font-size: 32px;
+}
+.img1 
+{
+	width: 50%;
+	height: 350px;
+	float: right;
+	margin-right: 5%;
+}
+
+.about-text h2
+{
+	font-family: 'Roboto Mono', sans-serif;
+
+	font-size: 28px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: left;
+	align-items: center;
+	width: 50%;	
+	margin-left: 5%;
+}
+
+.about-text p
+{
+	font-size: 18px;
+}
+
+ .about-button
+ {
+ 	width: 50%;	
+	margin-left: 5%;
+	border:2px solid rgba(242, 208, 164,.5);
+	padding: 5px;
+	
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: lighter;
+    background-color: rgba(242, 208, 164,.7);
+
+ }
+.menu-banner1 h2
+{  
+   font-family: 'Roboto Mono', sans-serif;
+	
+	font-size: 36px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;	
+	margin-top: 20px;
+ 	
+}
+
+	.menu-banner2 img
+	{
+		margin-top: 10px;
+		width: 150px;
+	}
+}
+
+.img2 
+{
+	height: 350px;
+}
+.blog-text h2
+{
+	font-size: 28px;
+}
+.blog-text p
+{
+	font-size: 18px;
+}
+.blog-button
+{
+	font-size: 14px;
+}
+
+@media screen and (max-width: 650px)
+{
+	.reservations img
+	{
+		width: 100%;
+
+	}
+	.banner img
+	{
+		width: 100%;
+	}
+}
+ @media screen and (max-width: 580px)
+ 
+ {
+
+ nav .logo
+ {
+ 	float: left;
+ 	width: 55px;
+ 	height: 80px;
+ 	display: flex;
+ 	align-items: center;
+ }
+
+.dish-button1
+{
+	position: absolute;
+	top: 50%;
+	left: 12%;
+}
+
+.dish-button2
+{
+	position: absolute;
+	top: 51%;
+	left: 46.5%;
+	padding: 0 2px;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+}
+
+.menu-button
+{
+	
+	
+	padding: 2px 30px;
+	font-size: 20px;
+	
+	text-decoration: none;
+    font-weight: lighter;
+	font-family: 'Roboto Mono', sans-serif;
+	margin-top:50%;
+}
+.menu-banner2 img
+{
+	width: 120px;
+}
+
+.menu-banner1 h2
+{
+
+   font-family: 'Roboto Mono', sans-serif;
+	
+	font-size: 28px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
+	margin-top:-10%;
+}
+
+       
+.img1 
+{
+	width: 50%;
+	height: 300px;
+	float: right;
+	margin-right: 5%;
+}
+
+.about-text h2
+{
+	font-family: 'Roboto Mono', sans-serif;
+		font-size: 20px;
+    line-height: 95%;
+	font-weight: lighter;
+	text-align: left;
+	align-items: center;
+	width: 50%;	
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.about-text p
+ {
+ 	font-family: 'Roboto Mono', sans-serif;
+	
+	font-size: 16px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: left;
+	align-items: center;
+	width: 50%;	
+	margin-left: 5%;
+ }
+
+ .about-button
+ {
+ 	width: 50%;	
+    margin-left: 5%;
+	
+	padding: 3px;
+	
+	text-decoration: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+    
+
+ }
+
    .banner{   
 		margin: 0 auto;
 		position: relative;
@@ -358,19 +1044,19 @@ span hr
 
 	.banner img
 	{
-	    width:100%;
-	    height: 500px;
+	    width:90%;
+	    height: 470px;
 	}
 
-    h1
+    .banner h1
     {
 
     color: white;
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	width: 100%;
 	text-align: center;
-	font-size:50px;
+	font-size:40px;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
 
@@ -380,10 +1066,10 @@ span hr
   {   
 	color: white;
 	position: absolute;
-	top: 52%;
+	top: 54%;
 	width: 100%;
 	text-align: center;
-	font-size:25px;
+	font-size:24px;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
    }
@@ -406,30 +1092,138 @@ span hr
 	text-align: center;
 }
 	
- }   
 
-@media screen and (max-width: 420px)
+.img2 
+{
+	height: 300px;
+}
+.blog-text h2
+{
+	font-size: 20px;
+}
+.blog-text p
+{
+	font-size: 16px;
+}
+.blog-button
+{
+	font-size: 12px;
+ }   
+}
+
+@media screen and (max-width: 484px)
  {
 
- .banner{   
+ nav .logo
+ {
+ 	float: left;
+ 	width: 50px;
+ 	height: 75px;
+ 	display: flex;
+ 	margin-top: 5px;
+ 	align-items: center;
+ }
+ 	.dish-button1
+{
+	position: absolute;
+	top: 55%;
+	left: 13.5%;
+}
+
+.dish-button2
+{
+	position: absolute;
+	top: 56%;
+	left: 46%;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 53%;
+	left: 76.5%;
+}
+.dish-button1, .dish-button2,.dish-button3
+{
+	padding: 0 2px;
+	font-size: 16px;
+}
+  .about-container
+  {
+  	display: flex;
+  	flex-direction: column-reverse;
+  	width: 100%;
+  }
+
+  .about-text 
+  {
+  	height: 100%;
+  	text-align: center;
+  }
+  .about-text h2
+  {
+  	font-size: 28px;
+  	width: 90%;
+  	display: block;
+  	margin: 0 auto;
+  	text-align: center;
+  	margin-top: 20%;
+  }
+   .about-text p
+   {
+   	font-size: 18px;
+   	width: 100%;
+   	text-align: center;
+   	display: block;
+   	margin-left:auto;
+   	margin-right: auto;
+   }
+
+   .about-button
+   {
+   	font-size: 12px;
+    margin: 0 auto;
+
+   }
+  
+  .img1
+  {
+  	height: 200px;
+    width: 95%; 
+    padding-top: 20px;
+    margin-left: 5%;
+    }
+
+    .menu-banner1 h2
+    {
+     margin-top: 10%;
+    }
+
+   .menu-banner2 img
+   {
+   	margin-top: 20px;
+     width: 100px;
+   }
+  
+.banner{   
 		margin: 0 auto;
 		position: relative;
 	}
 
 	.banner img
 	{
-	    width:100%;
-	    height: 400px;
+	    width:90%;
+	    height: 380px;
 	}
-h1
+ .banner h1
     {
 
     color: white;
 	position: absolute;
-	top: 40%;
+	top: 42%;
 	width: 100%;
 	text-align: center;
-	font-size:42px;
+	font-size:36px;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
 
@@ -439,10 +1233,10 @@ h1
 {   
 	color: white;
 	position: absolute;
-	top: 54%;
+	top: 52%;
 	width: 100%;
 	text-align: center;
-	font-size:25px;
+	font-size:20px;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
 }
@@ -464,10 +1258,206 @@ h1
 	font-family: 'Roboto Mono', sans-serif;
 	text-align: center;
 }
-	
+
+   .blog-container
+   {
+   	display: flex;
+   	flex-direction: column;
+   }	
+
+   .blog-text
+   {
+   	width: 100%;
+   	text-align: center;
+   	margin: 0 10px;
+   }
+   .img2
+   {
+   	height: 200px;
+    width: 95%;
+    align-items: center;
+   }	
+   .blog-text h2
+   {
+   	font-size: 30px;
+   	text-align: center;
+   	padding-left: 10px;
+   }
+   .blog-text p
+   {
+   	font-size: 18px;
+   	text-align: left;
+   }
  }   
+@media screen and (max-width: 385px)
+{
+  .dish-button1
+{
+	position: absolute;
+	top: 18%;
+	left: 43%;
+}
 
+.dish-button2
+{
+	position: absolute;
+	top: 53.5%;
+	left: 44.5%;
+}
 
+.dish-button3
+{
+	position: absolute;
+	top: 85%;
+	left: 43%;
+}
+.dish-button1, .dish-button2,.dish-button3
+{
+	padding: 0 2px;
+	font-size: 20px;
+}
+	.banner img
+	{
+      height: 350px;
+	}
+
+	h1
+    {
+	top: 42%;
+	width: 100%;
+	font-size:36px;
+	}
+ 
+ .hero-text
+{   
+	top: 55%;
+	width: 100%;
+	text-align: center;
+	font-size:18px;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
+}
+    .img1
+    {
+    	height: 50%;
+    }
+	
+	.about-text h2
+	{   
+		margin-top: 10px;
+		font-size: 24px;
+	}
+
+   .about-text p
+	{
+		font-size: 16px;
+	}
+    .menu-banner1 h2
+    {
+    	margin-top: 50px;
+    	font-size: 24px;
+    }
+
+   .menu-banner2 img
+   {
+     width: 50%;
+     height: 150px;
+     margin-top: 40px;
+   }
+
+   .menu-button
+	{
+		
+		
+		padding: 2px 20px;
+		font-size: 18px;
+		
+	}
+
+   
+    #menu-mobile 
+    {
+    display:none;
+  	height: 200px;
+    width: 90%; 
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    }
+     
+
+   @media screen and (max-width: 305px)
+{ 
+
+ nav .logo
+ {
+ 	float: left;
+ 	width: 45px;
+ 	height: 75px;
+ 	display: flex;
+ 	align-items: center;
  }
 
+     	.dish-button1
+{
+	position: absolute;
+	top: 20%;
+	left: 43%;
 }
+
+.dish-button2
+{
+	position: absolute;
+	top: 54.5%;
+	left: 44.5%;
+}
+
+.dish-button3
+{
+	position: absolute;
+	top: 85.5%;
+	left: 42%;
+}
+.dish-button1, .dish-button2,.dish-button3
+{
+	padding: 0 2px;
+	font-size: 14px;
+}
+	.banner img
+	{
+      height: 320px;
+	}
+
+	h1
+    {
+	top: 42%;
+	width: 100%;
+	font-size:32px;
+	}
+ 
+ .hero-text
+{   
+	top: 55%;
+	width: 100%;
+	text-align: center;
+	font-size:16px;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
+}
+    .menu-banner1 h2
+    {
+    	margin-top: 20px;
+    	font-size: 25px;
+    }
+
+   .menu-banner2 img
+   {
+     width: 50%;
+     height: 100px;
+     
+   }
+
+
+    
+     }
+    }
