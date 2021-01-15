@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet"  href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   <!--Font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,8 +27,9 @@
   <input type="checkbox" name="" id="toggle">
   <img  class="logo" src="img/logo.png">
   <ul class="links">
-    <li><a href="#">HOME</a></li>
-    <li><a href="#">OUR STORY</a></li>
+    <li><a href="index.html" class="active">HOME</a></li>
+    <li><a href="about.html">OUR STORY</a></li>
+    <li><a href="events.html">EVENTS</a></li>
     <li><a href="#">MENU</a></li>
     <li><a href="#">RESERVATIONS</a></li>
     <li><a href="#">ORDER NOW</a></li>
@@ -79,43 +80,77 @@
     </div>
   </div>
 
-  <div class="testimonials">
-     <h2>"Testimonials"</h2>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-     </div>
-       <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <p>Positive reviews of happy customers</p>
+<div class="testimonials">
+  <div class="inner">
+    <h2>Tasty-monials</h2>
+    <p>Some delicious reviews from our happy customers</p>
+    <div class="border">
     </div>
 
-    <div class="item">
-    <p>Positive reviews of happy customers</p>
+    <div class="row">
+      <div class="col">
+        <div class="testimonial">
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          <h3 class="name">Full Name</h3>
+          <div class="stars">
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
 
-    </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. </p>
+        </div>
+      </div>
 
-    <div class="item">
-      <p>Positive reviews of happy customers</p>
+
+      <div class="col">
+        <div class="testimonial">
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          <h3 class="name">Full Name</h3>
+          <div class="stars">
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="testimonial">
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          <h3 class="name">Full Name</h3>
+          <div class="stars">
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. </p>
+        </div>
+      </div>
+
+
     </div>
   </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
-
+  
  <div class="blog-container">
     <img class="img2" src="img/restaurant.jpg">
     <div class="blog-text">
@@ -274,41 +309,37 @@
   </div>
 </div>
 
-<footer>
   <div class="footer-container">
-      <div class="footer1">
+      <div class="col1">
       <h3>Join our mailing list</h3>      
       <input type="email"  name="email" id="email" placeholder="Email"> <br>
       <input type="submit" id="submit" value="submit">
-            <br>
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-twitter"></i>
-    </div>
+           
+        </div>
 
-    <div class="footer2">
+    <div class="col2">
       <h3>CONTACT</h3>
       <address>Abc, xyz, abc, xyz</address>
       <p>info@thekitchen.com <br>123-456-789</p>
     </div>
-    <div class="footer3">
+    <div class="col2">
       <h3>OPENING HOURS</h3>
       
       <p>Monday - Friday <br>11am - 11pm <br>Saturday - Sunday<br>10am - 12am
 
     </div>
-
     
-    <div class="footer4">
-      <h3>Locate Us</h3>
-    </div>
+      <div class="col2">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
     
-  
+      </div>
     
 
     
   </div>
-</footer>
+
 <!--scripts-->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

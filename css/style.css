@@ -94,8 +94,7 @@ nav .icon-burger .line
 {
     width:90%;
     display: block;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: 0 auto;
     height: 700px;
 }
 
@@ -295,8 +294,80 @@ margin: 0 10% 0 10%;
 	display: none;
 }
 
+/*testimonials*/
+.testimonials{
+	padding: 40px 0 20px 0;
+	color: #345161;
+	text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
 
-/*about container*/
+}
+
+.inner
+{
+	margin:0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.inner h2
+{
+	font-size: 45px;
+	font-weight: lighter;
+}
+
+.inner p
+{
+	font-size: 25px;
+}
+.border
+{
+	width: 160px;
+	height: 5px;
+	background-color: #bd9d76;
+	margin: 20px auto;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.col
+{
+	flex:33.33%;
+	max-width: 33.33%;
+	padding: 15px;
+}
+
+.testimonial
+{
+	background-color:rgba(189, 157, 118,.5);
+	padding: 30px;
+}
+
+.testimonial i
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.name
+{
+	font-size: 20px;
+	text-transform:uppercase;
+	margin: 20px 0; 
+}
+
+.stars
+{
+	color: #6ab04c;
+	margin-bottom: 20px;
+}
+/*blog container*/
 .blog-container
 {
 	width: 100%;
@@ -309,7 +380,7 @@ margin: 0 10% 0 10%;
 	margin-top: 14%;
 	margin-right: 5%;
 	padding: 10px;
-	width: 40%;
+	width: 40%;S
 }
 
 .blog-text h2
@@ -356,19 +427,14 @@ margin: 0 10% 0 10%;
     text-align: center;
     margin-top: 5%;
 }
-.reservations 
-{
-	display: block;
-	margin: 0 auto;
-}
 
 .reservations img
 {
+	display: block;
+	margin: 0 auto;
 	position: relative;
 	height: 500px;
 	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
 	width: 90%;
 }
 .reservations h2
@@ -394,18 +460,25 @@ margin: 0 10% 0 10%;
 
 }
 
-#name, #num, #date, #size
+#name, #num, #date, #size, #event-type, #email
 {
-	  font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
     color: #345161;
-	width: 30%;
-	padding:10px 2px;
+	width: 40%;
+	padding:10px 10px;
 	margin-bottom: 10px;
 	font-size: 18px;
     border:none;
+    margin-left: 5%;
 }
 
 
+#event-info
+{ 
+	display: block;
+	margin:0 auto;
+	width: 90%;
+}
 #ph, #time
 {
 	  font-family: 'Roboto Mono', sans-serif;
@@ -436,21 +509,34 @@ margin: 0 10% 0 10%;
 	color: white;
 	display: block;
 	margin: 0 auto;
+
+
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col1
+{
+	flex:40%;
+	max-width: 40%;
+	padding: 15px 15px 15px 50px;
 }
 
-.footer1
+.col2
 {
-  	padding: 20px 0; 
-	margin-left: 5%;
-	font-family: 'Roboto Mono', sans-serif;
+   flex:20%;
+   max-width: 20%;
+   padding: 15px;
+}
 
-}
-.footer2
+.col2 i
 {
-	padding: 20px 0; 
-	margin-left: 5%;
+	font-size: 28px;
+	width: 30%;
+	align-items: center;
+	margin-top: 50%;
 }
+
 #email
 {
   padding:5px 10px;
@@ -465,26 +551,160 @@ margin: 0 10% 0 10%;
 	font-family: 'Roboto mono', sans-serif;
 	color: white;
 }
-.footer1 i
-{
-	font-size: 18px;
-	margin-top: 10%;
-    width: 10%;
+
+
+    .about-tag h2 
+    {
+	font-family: 'Roboto Mono', sans-serif;
+	color:#345161;
+	font-size: 45px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
+	width: 100%;	
+	padding:2%;
 }
-.footer3
+
+.about-tag1 
 {
-  	padding: 20px 0; 
-	margin-left: 5%;
+	width: 90%;
+	column-count: 2;
+	display: block;
+	margin: 0 auto;
+	column-gap: 50px;
+	font-family: 'Roboto Mono', sans-serif;	
 }
-.footer4
-{	
-  	padding: 20px 0; 
-	margin-left: 5%;
+
+
+.team-container{   
+	margin: 0 auto;
+	height: 550px;
+}
+
+.team img
+{
+    width:50%;
+    height:500px;
+}
+
+.team h3
+{
+	color: #345161;
+	width: 50%;
+	text-align: left;
+	float: right;
+	padding-left: 36px;
+	font-size:40px;
+	font-weight: lighter;
+	font-family: 'Roboto Mono', sans-serif;
+  
+}
+
+.team p
+{
+    color: #345161;
+	width: 50%;
+	float: right;
+	text-align: left;
+    margin-top:-20%;
+	padding-left: 36px;
+	font-size:20px;
+	font-weight: lighter;
 	font-family: 'Roboto Mono', sans-serif;
 
 }
-	
 
+
+.events p
+{
+	font-size: 40px;
+   	width: 80%;
+   	color:#345161; 
+   	text-align: center;
+   	margin:0 auto;
+   	margin-top: 10%;
+    padding-left: 15px; 
+    font-family: 'Roboto Mono', sans-serif;
+    border-right: 2px solid #bd9d76;
+    border-left: 2px solid #bd9d76;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.col
+{
+	flex:50%;
+	max-width: 50%;	
+}
+
+.card{
+  border: 1px dotted #bd9d76;
+  width: 100%;
+  height: 100%;  
+}
+.card-text h4
+{
+  
+   margin: 0;
+   text-align: center;
+   font-size: 28px;
+   color:#345161;
+   font-family: 'Roboto Mono', sans-serif;
+   font-weight: lighter;
+}
+
+.card-text p
+{
+   font-size: 20px;
+   text-align: center;
+   padding-left: 5px;
+   color:#345161;
+   font-family: 'Roboto mono',sans-serif;
+}
+.img3
+{  
+	display: block;
+	margin:  auto;
+	margin-top: 15px;
+	width: 90%;
+	height: 300px;
+}
+.event-form
+{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	background-color:rgba(189, 157, 118,.8) 
+}
+
+.event-form h2
+{
+	text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
+	color: #345161;
+}
+
+#eventbtn
+{
+	margin-top: 10px;
+	text-align: center;
+	background-color:rgba(189, 157, 118,.8);
+	border:none; 
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 24px;
+	font-family: 'Roboto mono', sans-serif;
+	color: #345161;
+}
 @media screen and (max-width: 1077px)
 {
   .menu-container img
@@ -525,6 +745,24 @@ margin: 0 10% 0 10%;
 
 @media screen and (max-width: 995px)
 {
+.col
+{
+	flex:33.33%;
+	max-width: 33.33%;
+	padding: 10px;
+}
+
+.testimonial
+{
+	padding: 25px;
+}
+
+.testimonial i
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
 
  nav .logo
  {
@@ -570,7 +808,6 @@ margin: 0 10% 0 10%;
  .menu-banner1 h2
 {  
    font-family: 'Roboto Mono', sans-serif;
-	
 	font-size: 45px;
     line-height: 98%;
 	font-weight: lighter;
@@ -721,8 +958,63 @@ margin: 0 10% 0 10%;
 	font-size: 38px;
 }
 
+.col1
+{
+	flex: 35%;
+	max-width: 35%;
+}
+.col2
+{
+	flex: 21.66%;
+	max-width: 21.66%;
+}
+
 @media screen and (max-width: 860px)
 {
+	.col1
+	{
+		flex: 30%;
+		max-width: 30%;
+	}
+
+	#email
+	{
+		padding: 5px;
+		width: 80%;
+	}
+
+	.col2
+	{
+		flex: 23.33%;
+		max-width: 23.33%;
+		padding: 15px;
+	}
+	.col
+{
+	flex:33.33%;
+	max-width: 33.33%;
+	padding: 12px;
+}
+
+.testimonial
+{
+	padding: 22px;
+}
+
+.testimonial i
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.name
+{
+	font-size: 18px;
+	text-transform:uppercase;
+	margin: 15px 0; 
+}
+
 	.reservations h2
   {
   	margin-top: -40%;
@@ -772,9 +1064,49 @@ margin: 0 10% 0 10%;
 
 }
 @media screen and (max-width: 755px)
-{ .reservations img
+{
+.col2
+{
+	padding: 10px;
+}
+.col
+{
+	flex:100%;
+	max-width: 100%;
+	padding: 20px;
+}
+
+.testimonial
+{
+	padding: 10px;
+}
+
+.testimonial i
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 10%;
+}
+.inner h2
+{
+	font-size: 36px;
+	font-weight: lighter;
+}
+
+.inner p
+{
+	font-size: 20px;
+}
+
+.testimonials
+{
+	padding: 40px 0 10px 0;
+}
+	.reservations img
 	{
 		height:450px;
+		width: 90%;
+		margin: 0 auto;
 	}
 	.reservations h2
   {
@@ -897,6 +1229,7 @@ margin: 0 10% 0 10%;
 .img2 
 {
 	height: 350px;
+	margin-bottom: 5%;
 }
 .blog-text h2
 {
@@ -911,22 +1244,101 @@ margin: 0 10% 0 10%;
 	font-size: 14px;
 }
 
-@media screen and (max-width: 650px)
-{
-	.reservations img
-	{
-		width: 100%;
-
-	}
-	.banner img
-	{
-		width: 100%;
-	}
-}
- @media screen and (max-width: 580px)
+ @media screen and (max-width: 590px)
  
  {
+ 	.col1
+ 	{
+      flex: 60%;
+      max-width: 60%;
+ 	}
+    
+    .col2
+    {
+    	flex: 30%;
+    	max-width: 30%;
+    }
+ 	.inner h2
+{
+	font-size: 32px;
+	font-weight: lighter;
+}
 
+.inner p
+{
+	font-size: 20px;
+}
+
+ 	.name
+{
+	font-size: 16px;
+	text-transform:uppercase;
+	margin: 10px 0; 
+}
+
+.stars
+{
+	margin-bottom: 15px;
+}
+
+ .col
+{
+	flex:100%;
+	max-width: 100%;
+	padding: 10px;
+}
+
+.testimonial
+{
+	padding: 10px;
+}
+
+.testimonial i
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 10%;
+}
+
+.inner h2
+{
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+.inner p
+{
+	font-size: 18px;
+}
+
+  .reservations img
+  {
+  	height: 400px;
+  }
+  .reservations h2
+  {
+  	font-size: 28px;
+  	margin-top: -55%;
+  }
+  .res-form 
+  {
+  	margin-top: -54%;
+  }
+  #num, #name, #date, #size, #ph
+  {
+     font-size: 12px;
+     padding:10px 0;
+  }
+
+   #time, #ph
+   {
+   	width: 15%;
+   	font-size: 12px;
+   }
+   #book
+   {
+   	font-size: 16px;
+   }
  nav .logo
  {
  	float: left;
@@ -960,11 +1372,8 @@ margin: 0 10% 0 10%;
 
 .menu-button
 {
-	
-	
 	padding: 2px 30px;
 	font-size: 20px;
-	
 	text-decoration: none;
     font-weight: lighter;
 	font-family: 'Roboto Mono', sans-serif;
@@ -978,8 +1387,7 @@ margin: 0 10% 0 10%;
 .menu-banner1 h2
 {
 
-   font-family: 'Roboto Mono', sans-serif;
-	
+   font-family: 'Roboto Mono', sans-serif;	
 	font-size: 28px;
     line-height: 98%;
 	font-weight: lighter;
@@ -1113,7 +1521,85 @@ margin: 0 10% 0 10%;
 
 @media screen and (max-width: 484px)
  {
+ 	.col1
+ 	{
+ 		flex: 100%;
+ 		max-width: 95%;
+ 	}
 
+ 	.col2 i
+ 	{
+ 		margin: 10px 0;
+ 	}
+
+ 	.col2
+ 	{
+      flex: 100%;
+      max-width: 95%;
+      text-align: center;
+ 	}
+ 	
+ 	.testimonial i
+{
+	width: 50px;
+	height: 30px;
+	border-radius: 10%;
+}
+
+    .testimonials{
+	padding: 20px 0;
+}
+
+.inner
+{
+	
+	margin:0 auto;
+	overflow: hidden;
+	padding:0 20px;
+}
+
+.border
+{
+	width: 160px;
+	height: 5px;
+	margin: 16px auto;
+}
+
+  .reservations img
+  {
+  	margin-top: 5%;
+  	height: 400px;
+  }
+  .reservations h2
+  {
+  	margin-top: -75%;
+  	font-size: 24px;
+  	color: black;
+  }
+  .res-form
+  {
+  	margin-top: -70%;
+  }
+  #name, #date
+  {
+  	width: 70%;
+  	margin-left: 10px;
+
+  }
+  #num, #size
+  {
+  	width: 38%;
+  }
+  #ph, #time
+  {
+  	width: 30%
+
+  }
+  #book
+  {
+  	font-size:14px;
+  	margin-top: -50%;
+  }
  nav .logo
  {
  	float: left;
@@ -1191,7 +1677,8 @@ margin: 0 10% 0 10%;
   	height: 200px;
     width: 95%; 
     padding-top: 20px;
-    margin-left: 5%;
+  
+    margin: 0 auto;
     }
 
     .menu-banner1 h2
@@ -1276,6 +1763,7 @@ margin: 0 10% 0 10%;
    	height: 200px;
     width: 95%;
     align-items: center;
+    margin: 0 auto;
    }	
    .blog-text h2
    {
@@ -1291,6 +1779,54 @@ margin: 0 10% 0 10%;
  }   
 @media screen and (max-width: 385px)
 {
+  
+.inner h2
+{
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.inner p
+{
+	font-size: 18px;
+}
+
+  .reservations img
+  {
+  	height: 400px;
+  }
+  .reservations h2
+  {
+  	margin-top: -90%;
+    margin-left: 25%;
+  	font-size: 28px;
+  	color: black;
+  }
+  .res-form
+  {
+  	margin-top: -85%;
+  }
+  #name, #date
+  {
+  	width: 70%;
+  	margin-left: 10px;
+
+  }
+  #num, #size
+  {
+  	width: 38%;
+  }
+  #ph, #time
+  {
+  	width: 30%
+
+  }
+  #book
+  {
+  	font-size:14px;
+  	margin-left: 23%;
+  	padding:2px 5px;
+  }
   .dish-button1
 {
 	position: absolute;
@@ -1387,7 +1923,86 @@ margin: 0 10% 0 10%;
      
 
    @media screen and (max-width: 305px)
-{ 
+{
+
+.inner
+{
+	
+	margin:0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.border
+{
+	width: 160px;
+	height: 5px;
+	margin: 16px auto;
+}
+
+.col
+{
+	flex:100%;
+	max-width: 100%;
+	padding: 10px;
+}
+
+.testimonial
+{
+	padding: 15px;
+}
+
+.testimonial i
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.name
+{
+	font-size: 20px;
+	text-transform:uppercase;
+	margin: 10px 0; 
+}
+
+
+  .reservations img
+  {
+  	height: 350px;
+  	width: 90%;
+  	margin: 0 auto;
+
+  }
+  .reservations h2
+  {
+  	position: absolute;
+  	margin-top: -95%;
+  	font-size: 24px;
+  	color: black;
+  }
+  .res-form
+  {
+  	margin-top: -90%;
+  }
+  #name, #date
+  {
+  	width: 70%;
+  	margin-bottom: 5px;
+  }
+  #num, #size
+  {
+  	margin-left: 5px;
+  	width: 38%;
+  	margin-bottom: 5px;
+  }
+  #ph, #time
+  {
+  	margin-left: 5px;
+  	width: 30%
+  	margin-bottom:5px;
+
+  }
 
  nav .logo
  {
