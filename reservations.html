@@ -33,7 +33,7 @@
     <li><a href="about.html">OUR STORY</a></li>
     <li><a href="events.html">EVENTS</a></li>
     <li><a href="menu.html">MENU</a></li>
-    <li><a href="reservations.html">RESERVATIONS</a></li>
+    <li><a href="reservations.html" class="active">RESERVATIONS</a></li>
     <li><a href="#">ORDER NOW</a></li>
   </ul>
   <label for="toggle" class="icon-burger">
@@ -46,62 +46,20 @@
 <div class="banner">
  
   <img src="img/heroimage.jpg">
-  <h1>THE KITCHEN</h1>
-  <h2 class="hero-text"><span><hr></span>FROM OUR PAN TO YOUR HEART</h2>
-    
+  <h1>Reservations</h1>   
   </div>
 
-  <div class="about-container">
-    <img class="img1" src="img/dine-in.jpg">
-    <div class="about-text">
-      <h2>Good food,Great vibes and Homely ambience!
-      </h2>
-      <p>That's what we stand for</br>
-      But who are we?</p>
-      <a class="about-button" href="#">Get to know us
-       </a>
-    </div>
-</div>
 
-  <div class="menu-container">
-    <div class="menu-banner1">
-      <h2>Serving you happiness</h2>
-      <a class="menu-button" href="#">Menu</a>
-    </div>  
-    <div class="menu-banner2">
-       <img class="svg" src="img/drawing.svg">
-            <a id="dish-button1" href="menu.html#indian">Indian</a>
-            
-      <img class="svg1" src="img/drawing-1.svg"><a id="dish-button2" href="menu.html#italian">Italian</a>
-           
-      <img class="svg2" src="img/drawing-2.svg">
-           <a id="dish-button3" href="menu.html#chinese">Chinese</a>
-                 
-       
-    </div>
-  </div>
+
 
   
- <div class="blog-container">
-    <img class="img2" src="img/restaurant.jpg">
-    <div class="blog-text">
-      <h2>What's cooking on the blog?</h2>
-      <p>The world-famous lasagna has a secret ingredient to it and what's that?</p>
-      
-      <a class="blog-button" href="#">Read more
-       </a>
-    </div>
-</div>
-
-<div class="reservations">
-  <img src="img/reservations.jpg">
-    <h2>Reservations</h2>
-    <div class="res-form">
+    <div class="res-form1">
     <form method="post" id="res" action="">
-      <input type="text" name="fname" id="name" placeholder="Name">
+      <input type="text" name="fname" id="resname" placeholder="Name">
+  
           
-          <input type="date" name="date-select" id="date" placeholder="Date">
-          <select name="time" id="time">
+          <input type="date" name="date-select" id="resdate" placeholder="Date">
+          <select name="time" id="restime">
            <option value="time-select">Time</option>
            <option value="10">
              10.00AM
@@ -201,7 +159,7 @@
              22.30PM
            </option>
          </select>
-         <select name="size" id="size">
+         <select name="size" id="res-size">
            <option value="size-select">Number of persons</option>
            <option value="1">
              1
@@ -227,9 +185,22 @@
            
          </select><br><br>
 
-           <input type="submit" id="book" value="Book Now">
+           <input type="submit" id="book1" value="Book Now">
     </form>
+
   </div>
+  <div class="reservations1">
+  <h2>Dine with us!</h2>
+  <h4>Sunday to Thursday<h4>
+  <h3>Brunch</h3>
+  <p>10.00am-11.30pm 
+  <h3>Lunch</h3>
+  <p>12.00pm-2.00pm</p>
+  <h3>Dinner</h3>
+  <p>6.00pm-9.30pm</p>
+   
+  </div>
+    
 </div>
 
   <div class="footer-container">
@@ -262,11 +233,3 @@
 
     
   </div>
-
-<!--scripts-->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/app.js"></script>
-</body>
-</html>

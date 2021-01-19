@@ -1,0 +1,263 @@
+ .menu h2
+ {  font-size: 24px;
+ 	color: #bd9d76;
+ 	font-family: 'Roboto Mono', sans-serif;
+ 	font-weight: lighter;
+ 	text-align: center;
+ 	display: none;
+ }
+ .menu-img1, .menu-img3
+ {
+ 	position: absolute;
+ 	top: 20%;
+ 	left: 39%;
+ 	width: 20%;
+ }
+
+
+ .menu-img2
+ {
+ 	position: absolute;
+ 	top: 5%;
+ 	left: 35%;
+ 	width: 25%;
+ }
+ .border1
+ {
+ 	width: 95%;
+ 	height: 2px;
+ 	margin: 5% 0;
+ 	background-color: #bd9d76;
+ }
+ #indian, #italian, #chinese 
+ {
+ 	position: relative;
+    column-count: 2;
+    column-gap: 20%;
+
+ }
+ .menu h3, p
+{
+	width: 70%;
+	color: #345161;
+	font-family: 'Roboto mono', sans-serif;
+	display: block;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+
+/*reservations*/
+
+.res-form1
+{ 
+	display: block;
+margin:0 auto;
+margin: 10% 5%; 
+   color: white;
+   text-align: left;
+   border: 2px solid #bd9d76;
+   padding:5% 0 5% 0;
+   width: 90%;
+   float: right;
+
+}
+
+#resname, #resdate, #res-size, #restime
+{
+	font-family: 'Roboto Mono', sans-serif;
+    color: #345161;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	border:1px solid #bd9d76;
+	padding:10px 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+#book1
+{
+	  font-family: 'Roboto Mono', sans-serif;
+     margin-left: 40%;
+	font-size: 24px;
+	padding: 5px 40px;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #bd9d76;
+	font-weight: lighter;
+		border:2px solid #bd9d76;
+
+}
+
+
+.reservations1 {
+  text-align: center;
+  margin-bottom: 5%;
+   font-family: 'Roboto mono',sans-serif;
+  
+}
+
+.reservations1 h2
+{
+   font-size: 56px;
+
+   color: #345161;
+}
+
+.reservations1 p
+{
+	padding: 0;
+	font-size: 20px;
+   color: #bd9d76;
+
+}
+
+
+.reservations1 h3
+{
+	font-size: 24px;
+
+   color: #345161;
+}
+
+.reservations1 h4
+{
+	font-size: 32px;
+   color: #345161;
+   font-weight: bold;
+}
+
+@media screen and (max-width: 830px)
+{
+ 
+ .reservations1 h2
+ {
+ 	font-size: 50px;
+ }
+ .border1
+ {
+ 	width: 85%;
+ 	height: 2px;
+ 	margin: 5% 5%;
+ }
+ .menu h3, p
+{
+	width: 85%;
+}
+
+
+}
+
+@media screen and (max-width: 730px)
+{
+	#book1
+	{
+		margin-left: 36%;
+	}
+	.reservations1 h2
+	{
+		font-size: 45px;
+	}
+	.reservations1 h4
+	{
+		font-size: 28px;
+	}
+	.menu-img1,.menu-img3
+	
+ {
+ 	top: 30%;
+ 	left: 40%;
+
+ }
+
+
+ .menu-img2
+ {
+ 
+ 	top: 15%;
+ 	left: 36%;
+ 	width: 25%;
+ }
+}
+
+@media screen and (max-width: 590px)
+{
+
+#book1
+{
+	font-size: 18px;
+}
+
+.reservations1 h2
+{
+	font-size: 32px;
+}
+
+.reservations1 h4
+{
+	font-size: 20px;
+}
+.menu h3, p
+{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding: 3%;
+}
+
+.menu h3
+{
+	font-size: 16px;
+}
+.menu p
+{
+   font-size: 14px;
+}
+
+
+.res-form1
+{
+	left: 50%;
+	height: 80%;
+}
+
+
+}
+
+@media screen and (max-width: 450px)
+{
+	#book1
+	{
+		padding: 5px 15px;
+		margin-left: 30%;
+	}
+
+	
+	.menu-img1, .menu-img2, .menu-img3
+	{
+		display: none;
+	}
+
+	#indian, #italian, #chinese
+	{
+		column-count: 1;
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.menu p
+	{
+		font-size: 12px;
+	}
+
+	.menu h3
+	{
+		text-align: center;
+	}
+	 .menu h2
+ {
+ 	display: block;
+ }
+
+}

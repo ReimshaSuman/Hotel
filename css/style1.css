@@ -1,0 +1,574 @@
+ .about-tag h2 
+    {
+    margin: 0 auto;
+	font-family: 'Roboto Mono', sans-serif;
+	color:#345161;
+	font-size: 45px;
+    line-height: 98%;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
+	width: 100%;	
+	padding:2%;
+}
+
+.about-tag1 
+{
+	width: 90%;
+	column-count: 2;
+	display: block;
+	margin: 0 auto;
+	column-gap: 50px;
+	font-family: 'Roboto Mono', sans-serif;	
+}
+
+
+.team-container{   
+	margin: 0 auto;
+	height: 70%;
+}
+
+.team img
+{
+    width:45%;
+    height:500px;
+}
+
+.team h3
+{
+	color: #345161;
+	width: 55%;
+	text-align: left;
+	float: right;
+	padding-left: 36px;
+	font-size:40px;
+	font-weight: lighter;
+	font-family: 'Roboto Mono', sans-serif;
+  
+}
+
+.team p
+{
+    color: #345161;
+	width: 55%;
+	float: right;
+	text-align: left;
+    margin-top:-24%;
+	padding-left: 36px;
+	font-size:18px;
+	font-weight: lighter;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+
+.testimonials{
+	padding: 40px 0 20px 0;
+	color: #345161;
+	text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
+
+}
+
+.inner
+{
+	margin:0 auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.inner h2
+{
+	font-size: 45px;
+	font-weight: lighter;
+}
+
+.inner p
+{
+	font-size: 25px;
+}
+.border
+{
+	width: 160px;
+	height: 5px;
+	background-color: #bd9d76;
+	margin: 20px auto;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.col
+{
+	flex:50%;
+	max-width: 50%;
+	padding: 15px;
+}
+
+.testimonial
+{
+	border:2px solid #bd9d76;
+    
+	padding: 30px;
+}
+
+.testimonial i
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.name
+{
+	font-size: 20px;
+	text-transform:uppercase;
+	margin: 20px 0; 
+}
+
+.stars
+{
+	color: #6ab04c;
+	margin-bottom: 20px;
+}
+
+
+/*events*/
+.events p
+{
+	font-size: 36px;
+   	width: 80%;
+   	color:#345161; 
+   	text-align: center;
+   	margin:0 auto;
+   	margin-top: 10%;
+    padding-left: 15px; 
+    font-family: 'Roboto Mono', sans-serif;
+    border-right: 2px solid #bd9d76;
+    border-left: 2px solid #bd9d76;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.col
+{
+	flex:50%;
+	max-width: 50%;	
+}
+
+.card{
+  border: 1px dotted #bd9d76;
+  width: 100%;
+  height: 100%;
+
+}
+.card-text h4
+{
+  
+   margin: 0;
+   text-align: center;
+   font-size: 28px;
+   color:#345161;
+   font-family: 'Roboto Mono', sans-serif;
+   font-weight: lighter;
+}
+
+.card-text p
+{
+   font-size: 20px;
+   text-align: center;
+   padding-left: 5px;
+   color:#345161;
+   font-family: 'Roboto mono',sans-serif;
+}
+.img3
+{  
+	display: block;
+	margin:  auto;
+	margin-top: 15px;
+	width: 90%;
+	height: 300px;
+}
+.event-form
+{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5%; 
+
+}
+
+.event-form h2
+{
+	text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
+	color: #345161;
+}
+
+#name1, #num1, #date1, #size1, #event-type, #email
+{
+	font-family: 'Roboto Mono', sans-serif;
+    color: #345161;
+	width: 40%;
+	padding:10px 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+    border:1px solid #345161;
+    margin-left: 5%;
+}
+
+
+#event-info
+{ 
+	display: block;
+	margin:0 auto;
+	width: 90%;
+	border:1px solid #345161;
+}
+
+#event-btn
+{
+	font-size: 14px;
+	font-family: 'Roboto Mono', sans-serif;
+	margin: 0 auto;
+	display: block;
+	border:2px solid #bd9d76;
+	background-color: transparent;
+	margin-top: 10px;
+	width: 30%;
+	text-transform: uppercase;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#event-btn:hover
+{
+	background-color: #345161;
+	transition: .5s ease-out;
+	color: white;
+
+}
+@media screen and (max-width: 1077px)
+{
+
+.team h3
+{
+	width: 55%;
+	font-size:36px;
+ 
+}
+
+.team p
+{
+    margin-top:-26%;
+	font-size:16px;
+}
+
+} 
+
+@media screen and (max-width: 995px)
+{
+  .about-tag1 
+  {
+     column-gap: 40px;
+     margin-top: -3%; 	
+  }
+
+
+.inner h2
+{
+	font-size: 34px;
+	font-weight: lighter;
+}
+
+.col
+{
+	padding: 10px;
+}
+
+.testimonial
+{    
+	padding: 15px;
+}
+
+.testimonial p
+{
+	
+    font-size: 16px;
+}
+
+
+}
+
+
+@media screen and (max-width: 850px)
+{
+
+.team img
+{   
+
+margin-top: 10%; 
+}
+
+.team h3
+{   
+	margin-top: 10%; 
+	font-size:36px;
+}
+
+.team p
+{
+    margin-top:-35%;
+	padding-left: 36px;
+	font-size:16px;
+	font-weight: lighter;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+.inner h2
+{
+	font-size: 34px;
+	font-weight: lighter;
+}
+
+.col
+{
+	padding: 10px;
+}
+
+.testimonial
+{    
+	padding: 15px;
+}
+
+.testimonial p
+{
+
+    font-size: 16px;
+}
+
+.events p
+{
+	font-size: 32px;
+}
+
+@media screen and (max-width: 730px)
+{
+
+.about-tag h2 
+    {
+	font-size: 30px;
+	width: 100%;	
+	padding:2% 2% 0 2%;
+}
+
+.about-tag1 
+{
+	margin-top: 5px;
+	column-gap: 25px;
+}
+
+
+.about-tag1 p
+{
+	font-size: 15px;
+}
+
+.team img
+{   
+
+height: 450px;
+}
+
+.team h3
+{   
+	margin-top: 12%; 
+	font-size:30px;
+}
+
+.team p
+{
+    margin-top:-37%;
+
+	font-size:14px;
+}
+
+.inner h2
+{
+	font-size: 30px;
+}
+
+
+.testimonial
+{    
+	padding: 10px;
+}
+
+.testimonial p
+{
+
+    font-size: 14px;
+}
+
+.events p
+{
+	font-size: 30px;
+}
+
+#name1, #num1, #email, #date1, #size1, #event-type
+{
+	font-size: 12px;
+}
+
+@media screen and (max-width: 570px)
+{
+
+.about-tag h2 
+    {
+
+	font-size: 28px;
+	width: 90%;
+}
+
+.about-tag1 
+{
+	
+	column-count: 1;
+}
+
+
+.about-tag1 p
+{
+	font-size: 14px;
+}
+
+
+.team img
+{   
+display: flex;
+width: 90%;
+
+display: block;
+margin: 0 auto;
+padding:30px 20px 20px 20px;
+height: 450px;
+}
+
+.team h3
+{
+  width: 100%;   
+	font-size:30px;
+}
+
+.team p
+{
+    width: 100%;
+	font-size:14px;
+	margin-top: 5%;
+}
+
+.col
+{
+	flex: 100%;
+	max-width: 100%;
+}
+
+.events p
+{
+	font-size: 28px;
+}
+
+.card-text p
+{
+	font-size: 18px;
+}
+@media screen and (max-width: 477px)
+{
+
+.about-tag h2 
+    {
+	font-size: 30px;
+	width: 90%;
+	text-align: left;
+	padding: 5% 0;
+}
+
+.about-tag1 
+{
+	
+	column-count: 1;
+}
+
+
+.about-tag1 p
+{
+    font-size: 14px;
+}
+
+
+.team img
+{   
+display: flex;
+width: 90%;
+
+display: block;
+margin: 0 auto;
+padding:30px 20px 20px 20px;
+height: 450px;
+}
+
+.team h3
+{
+  width: 100%;   
+font-size:30px;
+
+}
+
+.team p
+{
+    width: 100%;
+	font-size:14px;
+	margin-top: 5%;
+
+	margin: 0 auto;
+
+}
+
+.col
+{
+	flex: 100%;
+	max-width: 100%;
+}
+
+.inner h2
+{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.inner p
+{
+	font-size: 18px;
+}
+
+.events p
+{
+	font-size: 24px;
+}
+
+
+#event-btn
+{
+	font-size: 12px;
+}
+}
