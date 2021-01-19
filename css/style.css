@@ -8,6 +8,17 @@
  	margin: 0;
  }
 
+@keyframes transition-timing-function: {
+	from {
+     opacity:0;
+     transform: rotateX(-10deg);
+	}
+
+	to{
+     opacity:1;
+     transform: rotateX(0);
+	};
+}
 
 /*navigation*/ 
  nav
@@ -57,9 +68,15 @@
  	text-decoration: none;
  }
 
- .active
+#order
+{
+	border:1px solid #bd9d76;
+}
+ #order:hover
  {
-  color: #b7ad99; 
+ 	transition: .2s ease-in-out;
+ 	color: white;
+ 	background-color: #264653;
  }
 
 nav .links a:hover
@@ -111,7 +128,7 @@ nav .icon-burger .line
 
 .hero-text
 {   
-	color: #bd9d76;
+	color: white;
 	position: absolute;
 	top: 55%;
 	left: 15px;
@@ -124,7 +141,7 @@ nav .icon-burger .line
 
 .banner h1
 {
-	color: #bd9d76;
+	color: white;
 	position: absolute;
 	top: 45%;
 	left: 8px;
@@ -152,6 +169,10 @@ span hr
 
 .about-text h2
 {
+	    
+	   animation: transitionIn .7s;
+    
+
 	font-family: 'Roboto Mono', sans-serif;
 	color:#345161;
 	font-size: 45px;
@@ -192,7 +213,7 @@ span hr
  }
 .about-button:hover
 {
-	background-color: #345161;
+	background-color: #264653;
 	transition: .2s ease-in-out;
     color:white;
 } 
@@ -266,10 +287,11 @@ margin: 0 10% 0 10%;
 
 .menu-button:hover
 {	
-	background-color: transparent;
+
+	background-color: #264653;
 	transition: .2s ease-in-out;
-	border-color: #F2D0A4;
-} 
+    color:white;
+}  
 
 #dish-button1, #dish-button2, #dish-button3 
 {
@@ -300,12 +322,6 @@ margin: 0 10% 0 10%;
 	left: 75.5%;
 }
 
-#menu-mobile
-{
-	display: none;
-}
-
-/*testimonials*/
 /*blog container*/
 .blog-container
 {
@@ -316,7 +332,7 @@ margin: 0 10% 0 10%;
 {
 	display: block;
 	float: right;
-	margin-top: 14%;
+	margin-top: 10%;
 	margin-right: 5%;
 	padding: 10px;
 	width: 40%;
@@ -352,10 +368,11 @@ margin: 0 10% 0 10%;
 }
 
 .blog-button:hover
+
 {
-	background-color: transparent;
+	background-color: #264653;
 	transition: .2s ease-in-out;
-	border-color: #bd9d76;
+    color:white;
 } 
 
  
@@ -425,19 +442,33 @@ margin: 0 10% 0 10%;
 	border:2px solid #bd9d76;
 
 }
+#book:hover
+{
+	background-color: #264653;
+	transition: .2s ease-in-out;
+    color:white;
+} 
 
 .footer-container
 {
 	width: 100%;
 	background-color: #bd9d76;
-	color: white;
 	display: block;
 	margin: 0 auto;
-
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.footer-container h3
+{
+	font-family: 'Roboto';
+	color: #264653;
+}
+.footer-container p
+{
+	color: white;
+	margin: 0 auto;
+	margin-left: 0;
 }
 .col1
 {
@@ -458,12 +489,14 @@ margin: 0 10% 0 10%;
 	font-size: 28px;
 	width: 30%;
 	align-items: center;
+	color: white;
 	margin-top: 50%;
 }
 
-#email
+#mail
 {
-  padding:5px 10px;
+	border:none;
+  padding:10px 10px;
   font-size: 18px;
   font-family: 'Roboto Mono', sans-serif;
 }
@@ -475,6 +508,7 @@ margin: 0 10% 0 10%;
 	background-color: rgba(0,0,0,.5);
 	font-family: 'Roboto mono', sans-serif;
 	color: white;
+	text-transform: uppercase;
 }
 
 
@@ -734,23 +768,6 @@ margin: 0 10% 0 10%;
 	font-family: 'Roboto', sans-serif;
 }
 
-.button
-{
-	background-color: rgba(16,75,75,.6);
-	outline: none;
-	border:1px;
-	border-radius:20px;
-	padding: 3px;
-	font-size: 32px;
-	width: 160px;
-	position: absolute;
-	top: 60%;
-	left: 40%;
-	color: white;
-	text-decoration: none;
-	font-family: 'Roboto Mono', sans-serif;
-	text-align: center;
-}
 
 .img2 
 {
@@ -784,7 +801,7 @@ margin: 0 10% 0 10%;
 		max-width: 30%;
 	}
 
-	#email
+	#mail
 	{
 		padding: 5px;
 		width: 80%;
