@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <!-- Bootstrap CSS -->
-   <link rel="stylesheet"  href="css/bootstrap.min.css">
+  <!--CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     
     <link rel="stylesheet" type="text/css" href="css/style.css">
      <link rel="stylesheet" type="text/css" href="css/style1.css">
      <link rel="stylesheet" type="text/css" href="css/style2.css">
@@ -27,14 +28,14 @@
 
 <nav>
   <input type="checkbox" name="" id="toggle">
-  <img  class="logo" src="img/logo.png">
+  <a href="index.html"><img  class="logo" src="img/logo.png"></a>
   <ul class="links">
-    <li><a href="index.html">HOME</a></li>
+    <li><a href="index.html" class="active">HOME</a></li>
     <li><a href="about.html">OUR STORY</a></li>
-    <li><a href="events.html" class="active">EVENTS</a></li>
+    <li><a href="events.html">EVENTS</a></li>
     <li><a href="menu.html">MENU</a></li>
     <li><a href="reservations.html">RESERVATIONS</a></li>
-    <li><a href="#">ORDER NOW</a></li>
+    <li><a href="#" id="order">ORDER NOW</a></li>
   </ul>
   <label for="toggle" class="icon-burger">
     <div class="line"></div>
@@ -43,7 +44,7 @@
   </label>
 </nav>
 
-<div class="banner">
+<div class="banner" data-aos="zoom-in" data-aos-duration="1000">
  
   <img src="img/event-cover.jpg">
   <h1>Event Catering</h1>
@@ -54,9 +55,10 @@
 
 <div class="events">
  
-  <p>It's our responsibility to make your next happy moment flavorsome and deliciously memorable. </p>
+  <p data-aos="fade-up" data-aos-duration="1000">It's our responsibility to make your next happy moment flavorsome and deliciously memorable. </p>
 </div>
-<div class="row">
+  
+<div class="row" data-aos="fade-in" data-aos-duration="1000">
   <div class="col ">  
   <div class="card">
   <img class="img3" src="img/birthdays.jpg" alt="Birthday cake">
@@ -98,7 +100,7 @@
 </div>
 
   </div>
-<div class="event-form">
+<div class="event-form" data-aos="fade-in" data-aos-duration="1000">
   <h2>Event Inquiry Form</h2>
     <form method="post" id="res" action="">
       <input type="text" name="fname" id="name1" placeholder="Name">
@@ -154,5 +156,8 @@
 
     
   </div>
-
-</body
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
