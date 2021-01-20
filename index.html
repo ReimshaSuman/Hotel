@@ -9,6 +9,7 @@
 
   <!-- links CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" type="text/css" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
      <link rel="stylesheet" type="text/css" href="css/style1.css">
      <link rel="stylesheet" type="text/css" href="css/style2.css">
@@ -80,7 +81,48 @@
        
     </div>
   </div>
-
+<div class="testimonial-container">
+  <div class="row row-content">
+    <div class="column">
+      <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <p class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="carousel-item">
+            <p class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="carousel-item">
+            <p class="d-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>  
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+           <li data-target="#mycarousel" data-slide-to="0" class="active"></li> 
+           <li data-target="#mycarousel" data-slide-to="1">
+             <li data-target="#mycarousel" data-slide-to="2"></li> 
+           </li>          
+        </ol>
+        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <div class="btn-group" id="carouselButton">
+          <button class="btn btn-danger btn-sm" id="carousel-pause">
+            <span class="fa fa-pause"></span>
+          </button>
+           <button class="btn btn-danger btn-sm" id="carousel-play">
+            <span class="fa fa-play"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   
  <div class="blog-container">
     <img class="img2" src="img/restaurant.jpg"data-aos="fade-down" data-aos-duration="1000">

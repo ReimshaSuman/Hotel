@@ -1,7 +1,10 @@
-const menuIcon = document.querySelector('.menu-bar');
+$(document).ready(function(){
+  $('#mycarousel').carousel({interval:2000});
+  $('#carousel-pause').click(function(){
+  	$('#mycarousel').carousel('pause');
+  });
 
-function toggleMenuIcon() {
-  menuIcon.classList.toggle('active')
-}
-
-menuIcon.addEventListener('click', toggleMenuIcon);
+  $('#carousel-play').click(function(){
+  	$('#mycarousel').carousel('cycle');
+  });
+});
