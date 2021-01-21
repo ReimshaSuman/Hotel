@@ -8,8 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
-    "watch:scss":"onchange \"css/*.scss\"--npm run scss",
-    "watch:all":"parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "watch:scss": "onchange \"css/*.scss\"--npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin about.html -d dist --htmlmin -o dist/about.html && usemin events.html -d dist --htmlmin -o dist/events.html && usemin menu.html -d dist --htmlmin -o dist/menu.html && usemin reservations.html -d dist --htmlmin -o dist/reservations.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build":"npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
@@ -22,13 +27,21 @@
   },
   "homepage": "https://github.com/ReimshaSuman/Hotel.git#readme",
   "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "^0.0.7",
     "lite-server": "^2.6.1",
     "onchange": "^7.1.0",
-    "parallelshell": "^3.0.2"
+    "parallelshell": "^3.0.2",
+    "rimraf": "^3.0.2",
+    "uglify-js": "^2.4.11",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
